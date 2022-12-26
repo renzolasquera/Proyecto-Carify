@@ -1,0 +1,12 @@
+body{
+    background: #cabebe;
+    background: linear-gradient(to right, #131105 ,#c7c4cc);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #131105;
+}
+
+.bg{
+    background-image: url(https://i.pinimg.com/736x/69/3b/96/693b96673bfcdd5c057716c3fabdf26c.jpg);
+    background-position: center center;
+    filter: grayscale(1);
+}

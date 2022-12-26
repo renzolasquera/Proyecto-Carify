@@ -1,0 +1,37 @@
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.target {
+  width: 20rem;
+  margin: 2rem;
+  min-height: 25rem;
+  box-shadow: 10px 10px 10px 10px #373333dc;
+  border-radius: 1rem;
+}
+
+.target img {
+  align-self: center;
+  width: 100%;
+  filter: grayscale(1);
+  transition: filter 1s ease-in-out 0s;
+}
+
+.target:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.target img:hover {
+  filter: grayscale(0);
+  transition: filter 1s ease-in-out 0s;
+}
+
+
+

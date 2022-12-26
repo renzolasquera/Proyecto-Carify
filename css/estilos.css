@@ -1,0 +1,180 @@
+body{
+    background: #cabebe;
+    background: linear-gradient(to right, #131105 ,#666469);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #f8f6fc;
+  }
+/*Navbar*/
+#titulo-nav{
+  color: rgb(230, 222, 222);
+}
+.navbar{
+  background-color: #010003;
+  height: 100%;
+  font-family: 'Cinzel', serif;
+}
+.img-logo{
+  width: 100px;
+}
+
+/* footer  */
+.footer {
+  background: #3c3f3e;
+  padding: 10px 0px;
+}
+
+.footer .row {
+  min-height: 100px;
+  text-align: center;
+}
+
+.footer_items {
+  text-decoration: none;
+  color: white;
+}
+.footer_items:hover {
+  color: rgb(169, 166, 166);
+}
+
+.redes img{
+ width: 2em;
+}
+
+#logo-ford{
+  width: 5em;
+}
+#logo-carific{
+  width: 7em;
+}
+
+#fondo404{
+  width: 100%;
+}
+
+p,h3 {
+  color: white;
+}
+#carouselExampleControls {
+  width: 300px;
+  margin-bottom: 30px;
+}
+.img-carouselPubli {
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*sobre nosotros*/
+.img-nosotros{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+ 
+ 
+}
+
+.textos{
+  text-align: center;
+  
+}
+
+.img-circulo {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  border-radius: 50%;
+  background-color: #2a5c0b;
+}
+
+.texto-datos{
+  color:#f8f6fc;
+}
+.modal-header, .modal-body{
+  color: #010003;
+}
+
+
+.mustang img{
+    width: 30rem;
+}
+
+.carutexto{
+  background-color: #3c3f3e;
+  opacity: 0.8;
+}
+
+ .botonmustang a{
+  text-decoration: none;
+}
+.botonmustang{
+  color: #f8f6fc;
+  background-color: #010003;
+}
+.botonmustang:visited{
+  color: #f8f6fc;
+  background-color: #010003;
+}
+.botonmustang:hover{
+  color: #04010c;
+  background-color: #3f2a35;
+}
+
+#hola{
+  color: #cabebe;
+}
+
+.lista{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-size: 2rem;
+}
+.lista a{
+
+  text-decoration: none;
+  color: #cabebe;
+  font-size: 1.5rem;
+}
+/* carousel  */
+#main .carousel-item img {
+  max-height: 70vh;
+  filter: grayscale(70%);
+  object-fit: cover;
+}
+
+#carousel {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  z-index: 1;
+}
+.img-entradas {
+  height: 250px;
+  object-fit: cover;
+}
+
+.entradas{
+  color: black;
+}
+.entradas a{
+  text-decoration: none;
+  color: black;
+}
+.entradas button:hover{
+  background-color: #7d7b81;
+}
+img{
+  filter: grayscale(1);
+}
+.lista a{
+  font-size: 1rem;
+  
+}
